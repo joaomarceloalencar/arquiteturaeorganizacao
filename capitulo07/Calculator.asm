@@ -48,7 +48,7 @@ main      proc
           ret
 main      endp
 OUTACC    proc
-	      push ebx           ;; save ebx and ecx, and edx
+	      push eax           ;; save ebx and ecx, and edx
           push ecx
           push edx
           mov temp, eax
