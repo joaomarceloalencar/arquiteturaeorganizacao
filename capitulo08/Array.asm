@@ -1,6 +1,6 @@
 ;
 ;   Building Instructions:
-;   ml /Cx /coff Array01.asm /link /SUBSYSTEM:console  /out:Array01.exe kernel32.lib legacy_stdio_definitions.lib msvcrt.lib
+;   ml /Cx /coff Array.asm /link /SUBSYSTEM:console  /out:Array.exe kernel32.lib legacy_stdio_definitions.lib msvcrt.lib
 ;   
           .686
           .model  flat, c
