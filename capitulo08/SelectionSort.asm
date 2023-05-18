@@ -25,6 +25,7 @@ main      proc
           INVOKE printf, ADDR msg1fmt, ADDR msg1
           INVOKE scanf, ADDR in1fmt, ADDR n
           INVOKE printf, ADDR msg5fmt
+          
           .if n > 0                 ; if n <= 0, don't continue
           mov ecx, n                ; load ecx with n
           mov edi, offset array + 0 ; load address of array into edi
