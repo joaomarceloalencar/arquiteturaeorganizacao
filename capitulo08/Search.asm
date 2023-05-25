@@ -14,7 +14,7 @@ in1fmt    byte    "%d", 0
 msg1      byte    "Enter the integer to be found: ", 0
 msg2      byte    "The integer was found ", 0
 msg3      byte    "The integer was not found", 0
-array     sdword  20,19,18,17,16,15,14,13,12,11,1,2,3,4,5,6,7,8,9          
+array     sdword  20,19,18,17,16,15,14,13,12,11,0,1,2,3,4,5,6,7,8,9          
 n         sdword  20
 number    sdword  ?
 found     sbyte   ?

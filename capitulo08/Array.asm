@@ -10,7 +10,7 @@ scanf     PROTO   arg2:Ptr Byte, inputlist:VARARG
           .data
 msg1fmt   byte    0Ah, "%s", 0
 msg2fmt   byte    0Ah, "%s", 0Ah, 0Ah, 0
-msg3fmt   byte    "   %d", 0Ah, 0Ah, 0
+msg3fmt   byte    "   %d", 0
 in1fmt    byte    "%d", 0
 msg1      byte    "Enter the number of integers to be input: ", 0
 msg2      byte    "Enter an integer: ", 0
