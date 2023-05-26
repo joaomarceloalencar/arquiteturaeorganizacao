@@ -63,7 +63,7 @@ dequeue   macro
 main      proc
           mov edi, offset queue+0 ; use edi as front of queue
           mov esi, offset queue+0 ; use esi as rear of queue
-          INVOKE printf, ADDR msg1fmt, ADDR msg1e  ; priming
+          INVOKE printf, ADDR msg1fmt, ADDR msg1  ; priming
           INVOKE scanf, ADDR in1fmt, ADDR command ; read
           .while command != "s"  ; while not stop
           .if command == "e"     ; enqueue?
